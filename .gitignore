@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+venv/
+
+# Secrets
+.env
+
+# VS Code
+.vscode/
+
+# Dataset
+Dataset/
+
+# Training Logs
+work_dir/**/runs/
+*.csv
+*.txt
+
+# Old checkpoints
+work_dir/**/*.pt
+
+# Keep final model
+!work_dir/wlasl1000/ctrgcn/runs-30-11220.pt
+
+# Debug
+debug_video.npy
